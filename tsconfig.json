@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"lib": ["ES6", "ES2015.Proxy"],
+		"allowJs": true,
+		"skipLibCheck": true,
+		"strict": true,
+        "declaration": true,
+        "sourceMap": true,
+        "outDir": "./lib",
+		"forceConsistentCasingInFileNames": true,
+		"noEmit": false,
+		"incremental": true,
+		"esModuleInterop": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"isolatedModules": true
+	},
+	"include": ["src/index.ts"],
+	"exclude": ["node_modules"]
+}

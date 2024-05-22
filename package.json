@@ -1,0 +1,27 @@
+{
+  "name": "vesuva",
+  "version": "0.0.1-notest",
+  "description": "dynamically reconstructs method chains as strings using proxies.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+github.com:kanamone/vesuva.git"
+  },
+  "type": "module",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc -p ."
+  },
+  "author": {
+    "name": "uneco",
+    "email": "aoki@u-ne.co",
+    "url": "https://u-ne.co"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
