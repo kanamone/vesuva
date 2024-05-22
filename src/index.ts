@@ -36,7 +36,7 @@ export function encode (arg: unknown): string {
   return JSON.stringify(arg)
 }
 
-export function proxy<T extends object>(receiver: string, initialPath: string[] = []): T {
+export function recorder<T extends object>(receiver: string, initialPath: string[] = []): T {
   return new Proxy<T>(slate(), {
     get(_target, propKey) {
       const stringify = () => [receiver, ...initialPath].join('.')
@@ -57,7 +57,7 @@ export function proxy<T extends object>(receiver: string, initialPath: string[] 
         apply (_target, _thisArg, argumentsList) {
           const args = argumentsList.map(encode).join(', ');
           const newPath = [...initialPath, `${String(propKey)}(${args})`];
-          return proxy(receiver, newPath);
+          return recorder(receiver, newPath);
         }
       });
     }
