@@ -1,6 +1,6 @@
 {
   "name": "vesuva",
-  "version": "0.0.3-notest",
+  "version": "0.0.4",
   "description": "dynamically reconstructs method chains as strings using proxies.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
