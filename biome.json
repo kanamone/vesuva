@@ -1,0 +1,25 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.6.4/schema.json",
+	"organizeImports": {
+		"enabled": true
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true
+		}
+	},
+	"javascript": {
+		"formatter": {
+			"enabled": true,
+			"quoteStyle": "single",
+			"jsxQuoteStyle": "double",
+			"trailingComma": "all",
+			"semicolons": "asNeeded",
+			"indentStyle": "space",
+			"indentWidth": 4,
+			"lineWidth": 100,
+			"quoteProperties": "asNeeded"
+		}
+	}
+}
