@@ -1,5 +1,5 @@
 ![vesuva](https://github.com/kanamone/vesuva/assets/603523/bc03a97a-d81a-48c8-9abe-e289954a5e09)
-
+[![Build Status](https://img.shields.io/github/actions/workflow/status/kanamone/vesuva/test-and-lint.yml?branch=main&style=flat&colorA=000000&colorB=000000)](https://github.com/kanamone/vesuva/actions?query=workflow%3Atest)
 [![Version](https://img.shields.io/npm/v/vesuva?style=flat&colorA=000000&colorB=000000)](https://www.npmjs.com/package/vesuva)
 [![Downloads](https://img.shields.io/npm/dt/vesuva.svg?style=flat&colorA=000000&colorB=000000)](https://www.npmjs.com/package/vesuva)
 
