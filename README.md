@@ -1,9 +1,15 @@
+![vesuva](https://github.com/kanamone/vesuva/assets/603523/bc03a97a-d81a-48c8-9abe-e289954a5e09)
+
+[![Version](https://img.shields.io/npm/v/vesuva?style=flat&colorA=000000&colorB=000000)](https://www.npmjs.com/package/vesuva)
+[![Downloads](https://img.shields.io/npm/dt/vesuva.svg?style=flat&colorA=000000&colorB=000000)](https://www.npmjs.com/package/vesuva)
+
 # vesuva
 vesuva (/vɛˈsuːvə/) is a JavaScript library that uses dynamic proxies to reconstruct method chains as strings.
 
 # Installation
 
 ```bash
+
 npm install vesuva
 ```
 
